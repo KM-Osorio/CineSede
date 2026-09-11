@@ -4,12 +4,6 @@ CineSede es un proyecto universitario de Programación 3 para desarrollar, en eq
 
 > **Nombre pendiente de confirmación:** “EntreFunciones” fue el nombre utilizado en la primera entrega. El equipo todavía debe confirmar si el nombre definitivo será **CineSede** o **EntreFunciones**.
 
-## Estado actual
-
-El proyecto se encuentra en la etapa de **definición y revisión del alcance**. Esta plantilla organiza el trabajo colaborativo, pero no incorpora funcionalidades ni decisiones tecnológicas aún no confirmadas.
-
-No debe asumirse que todos los requisitos propuestos o candidatos formarán parte del alcance final. Solo deben implementarse requisitos después de que hayan sido revisados y confirmados por el equipo conforme a los lineamientos del curso.
-
 ## Módulos
 
 - **M1:** Identidad, acceso y seguridad.
