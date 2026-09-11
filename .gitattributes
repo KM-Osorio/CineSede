@@ -1,0 +1,14 @@
+* text=auto
+
+*.md text eol=lf
+*.sql text eol=lf
+*.java text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
