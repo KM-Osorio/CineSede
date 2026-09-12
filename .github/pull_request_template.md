@@ -1,6 +1,14 @@
-## Qué cambió
+# Pull Request
 
-<!-- Resumir los cambios realizados. -->
+## Tipo de rama
+
+- [ ] `feature`
+- [ ] `bugFix`
+- [ ] `hotFix`
+
+## Nombre de la rama
+
+<!-- Ejemplo: feature/m1-recuperacion-password -->
 
 PENDIENTE
 
@@ -10,24 +18,39 @@ PENDIENTE
 
 PENDIENTE
 
-## Cómo se verificó
+## Descripción del cambio
 
-<!-- Describir los pasos y resultados de la verificación. -->
+<!-- Explicar de forma breve y concreta qué cambió. -->
 
 PENDIENTE
 
-## Dependencias afectadas
+## Motivo del cambio
 
-<!-- Indicar módulos, contratos o tareas relacionados. Si no aplica, escribir "Ninguna". -->
+<!-- Explicar por qué era necesario realizar este cambio. -->
+
+PENDIENTE
+
+## Forma de verificación
+
+<!-- Describir los pasos ejecutados y los resultados obtenidos. -->
+
+PENDIENTE
+
+## Dependencias o contratos afectados
+
+<!-- Indicar módulos, contratos, interfaces, datos o tareas relacionados. Si no aplica, escribir "Ninguna". -->
 
 PENDIENTE
 
 ## Checklist
 
-- [ ] El cambio tiene un alcance acotado y corresponde a la tarea indicada.
-- [ ] El código compila sin errores, si aplica.
-- [ ] La aplicación se ejecuta sin errores, si aplica.
-- [ ] Revisé mis propios cambios antes de solicitar revisión.
-- [ ] Coordiné los cambios de contratos o módulos compartidos con las personas afectadas.
+- [ ] La rama utiliza uno de los tres prefijos permitidos: `feature/`, `bugFix/` o `hotFix/`.
+- [ ] La rama fue creada desde una versión actualizada de `main`.
+- [ ] El Pull Request tiene `main` como destino.
+- [ ] El cambio tiene un alcance acotado y corresponde a una sola tarea.
+- [ ] El código compila y se ejecuta, cuando aplique.
+- [ ] El autor revisó sus propios cambios.
+- [ ] Se coordinaron los contratos compartidos con las personas afectadas, cuando aplique.
 - [ ] No incluí credenciales, archivos generados ni configuraciones personales.
-- [ ] Actualicé la documentación necesaria, si aplica.
+- [ ] Actualicé la documentación necesaria, cuando aplica.
+- [ ] Solicité la revisión de al menos otro integrante.
