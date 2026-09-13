@@ -1,26 +1,36 @@
-# CineSede
+# Desarrollo del Sistema Web [EntreFunciones]
 
-CineSede es un proyecto universitario de Programación 3 para desarrollar, en equipo, una aplicación web transaccional vinculada con la gestión y operación de una plataforma cinematográfica.
+EntreFunciones es un proyecto universitario de Programación 3 para desarrollar, en equipo, una plataforma web que permita publicar actividades culturales y vender entradas de organizaciones pequeñas con una o varias sedes.
 
-> **Nombre pendiente de confirmación:** “EntreFunciones” fue el nombre utilizado en la primera entrega. El equipo todavía debe confirmar si el nombre definitivo será **CineSede** o **EntreFunciones**.
+> **Nombre definitivo:** **EntreFunciones**, conforme al título del documento académico.
 
-## Módulos
+## Especificación funcional
 
-- **M1:** Identidad, acceso y seguridad.
-- **M2:** Organizaciones, sedes, salas y recursos.
-- **M3:** Propuestas, curaduría y programación.
-- **M4:** Cartelera, descubrimiento y guía cultural.
-- **M5:** Comercio, reservas, pagos y entradas.
-- **M6:** Operación, control de acceso y analítica.
+La [especificación funcional](docs/ESPECIFICACION-FUNCIONAL.md) es una **V1 candidata para aprobación del equipo**. Define 29 requisitos funcionales distribuidos entre seis módulos.
+
+El modelo mínimo identifica 15 clases de dominio y 1 enum administrativo central, `TipoRolAdministrativo`. El catálogo completo de estados y tipos de la especificación reúne 12 enums.
+
+La primera entrega se conserva sin modificaciones en [docs/entrega-01/](docs/entrega-01/README.md). Esta especificación orienta el desarrollo futuro y no sustituye ni modifica los documentos originales de esa entrega.
+
+## Módulos vigentes
+
+- **M1:** [Gestión de cuentas roles y auditoría](docs/modulos/M1-cuentas-roles-auditoria.md).
+- **M2:** [Gestión de organizaciones sedes y salas](docs/modulos/M2-organizaciones-sedes-salas.md).
+- **M3:** [Gestión de actividades culturales y funciones](docs/modulos/M3-actividades-funciones.md).
+- **M4:** [Cartelera y búsqueda de funciones](docs/modulos/M4-cartelera-busqueda.md).
+- **M5:** [Reservas pagos y emisión de entradas](docs/modulos/M5-reservas-pagos-entradas.md).
+- **M6:** [Soporte de ventas y reportes comerciales](docs/modulos/M6-soporte-reportes.md).
+
+Consulta el [índice de módulos](docs/modulos/README.md) para revisar su distribución, clases propias y complejidad.
 
 ## Arquitectura exigida por el curso
 
 - Backend desarrollado en **Java**.
 - Frontend desarrollado en **C#**.
 - Persistencia y componentes de base de datos en **SQL**.
-- Comunicación entre frontend y backend mediante servicios **REST o SOAP**; la elección está pendiente.
+- Comunicación entre frontend y backend mediante servicios **REST o SOAP**; la elección continúa pendiente.
 
-Los frameworks, el sistema de compilación y la estructura interna del código aún no están definidos.
+Los frameworks, el sistema de compilación y la estructura interna del código aún están pendientes.
 
 ## Estructura principal
 
@@ -28,7 +38,8 @@ Los frameworks, el sistema de compilación y la estructura interna del código a
 - [Frontend C#](frontend-csharp/README.md)
 - [Base de datos](database/)
 - [Documentación académica](docs/)
-- [Módulos](docs/modulos/)
+- [Especificación funcional](docs/ESPECIFICACION-FUNCIONAL.md)
+- [Módulos](docs/modulos/README.md)
 - [Alcance pendiente](docs/ALCANCE-PENDIENTE.md)
 - [Decisiones](docs/DECISIONES.md)
 - [Equipo](docs/EQUIPO.md)
