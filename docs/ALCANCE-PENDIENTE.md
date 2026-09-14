@@ -1,6 +1,6 @@
 # Alcance pendiente
 
-Este documento separa los acuerdos confirmados de las decisiones que aún requieren revisión. No convierte requisitos candidatos en compromisos de implementación.
+Este documento separa lo definido en la especificación funcional V1 candidata de las decisiones que aún requieren aprobación. La primera entrega se conserva sin modificaciones.
 
 ## Obligatorio por el curso
 
@@ -9,28 +9,33 @@ Este documento separa los acuerdos confirmados de las decisiones que aún requie
 - Persistencia SQL.
 - Comunicación futura entre frontend y backend mediante REST o SOAP.
 
-## Fijo por decisión del equipo
+## Definido en la V1 candidata
 
-- Se trabajará con seis módulos:
-  - M1: Identidad, acceso y seguridad.
-  - M2: Organizaciones, sedes, salas y recursos.
-  - M3: Propuestas, curaduría y programación.
-  - M4: Cartelera, descubrimiento y guía cultural.
-  - M5: Comercio, reservas, pagos y entradas.
-  - M6: Operación, control de acceso y analítica.
-- El trabajo se dividirá entre seis integrantes.
+- Butacas numeradas y aforo general.
+- Reserva temporal con vencimiento.
+- Pago simulado.
+- Emisión de entradas.
+- Soporte limitado a compras.
+- Devoluciones simuladas.
+- Reportes comerciales.
+- Auditoría administrativa.
 
-## En evaluación
+## Pendiente
 
 - REST frente a SOAP.
-- Selección de butacas frente a aforo general.
-- Inclusión y alcance de una guía cultural o funciones de inteligencia artificial.
-- Complejidad del flujo de pagos.
-- Alcance de reservas y reembolsos.
-- Reportes que se implementarán.
-- CineSede frente a EntreFunciones como nombre definitivo.
-- Frameworks, sistema de compilación y estructura interna del código.
+- Frameworks.
+- Sistema de compilación.
+- Estructura interna del código.
 
-## Fuera del alcance
+## Fuera del MVP
 
-PENDIENTE de definir después de cerrar la revisión del alcance. Ningún requisito candidato se clasificará aquí sin acuerdo del equipo.
+- Presentación y curaduría de propuestas culturales.
+- Alquiler de salas.
+- Recursos técnicos e inventario de equipamiento.
+- Bloqueos de salas por mantenimiento.
+- Guía cultural, inteligencia artificial, recomendaciones automáticas, planes y favoritos.
+- Validación de entradas en el acceso.
+- Check-in y medición de asistencia.
+- Incidencias ocurridas durante el evento.
+- Pagos bancarios y devoluciones de dinero reales.
+- Contabilidad, facturación tributaria y liquidación a organizaciones.
