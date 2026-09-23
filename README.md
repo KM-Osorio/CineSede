@@ -1,6 +1,6 @@
-# CineSede
+# EntreFunciones
 
-CineSede es un proyecto universitario de Programación 3 para desarrollar, en equipo, una aplicación web transaccional vinculada con la gestión y operación de una plataforma cinematográfica.
+
 
 > **Nombre pendiente de confirmación:** “EntreFunciones” fue el nombre utilizado en la primera entrega. El equipo todavía debe confirmar si el nombre definitivo será **CineSede** o **EntreFunciones**.
 
