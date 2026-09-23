@@ -1,9 +1,5 @@
 # EntreFunciones
 
-
-
-> **Nombre pendiente de confirmación:** “EntreFunciones” fue el nombre utilizado en la primera entrega. El equipo todavía debe confirmar si el nombre definitivo será **CineSede** o **EntreFunciones**.
-
 ## Módulos
 
 - **M1:** Identidad, acceso y seguridad.
